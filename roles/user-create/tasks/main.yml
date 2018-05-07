@@ -5,6 +5,5 @@
     password: "{{'Abc123' | password_hash('sha512') }}"
     comment: "{{sfull}}"
     shell: /bin/bash
-    group: wheel
-    groups: wheel
+    group: test
     home: /home/{{sname}}
